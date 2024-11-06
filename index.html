@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Concurso de Preguntas</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="landing" class="animate__animated animate__fadeIn">
+        <h1 class="animate__animated animate__slideInDown">Quiz Challenge</h1>
+        <input type="text" id="nickname" placeholder="Ingresa tu nombre o nickname" 
+               class="animate__animated animate__fadeIn animate__delay-1s">
+        <button onclick="iniciarJuego()" 
+                class="animate__animated animate__fadeIn animate__delay-1s">
+            Comenzar el Desafío
+        </button>
+    </div>
+
+    <div id="quiz" style="display:none;">
+        <div id="previous-questions"></div>
+        <div id="questions"></div>
+        <button id="comprobar" onclick="verificarRespuestas()" 
+                class="animate__animated animate__pulse animate__infinite">
+            Comprobar Respuestas
+        </button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,32 @@
+[
+    {
+        "question": "¿Qué palabra clave se usa para declarar una variable que solo puede ser asignada una vez?",
+        "answers": ["let", "var", "const", "final"],
+        "correctAnswer": "const"
+    },
+    {
+        "question": "Cuál de las siguientes opciones es una forma correcta de definir una función en JavaScript?",
+        "answers": ["function myFunction() { ... }", "define function myFunction() { ... }", "let myFunction() => { ... }", "func myFunction() { ... }"],
+        "correctAnswer": "function myFunction() { ... }"
+    },
+    {
+        "question": "¿Qué método se usa para agregar un nuevo elemento al final de un array en JavaScript?",
+        "answers": ["array.push()", "array.add()", "array.append()", "array.insert()"],
+        "correctAnswer": "array.push()"
+    },
+    {
+        "question": "¿Cuál es la salida de console.log(2 + '2'); en JavaScript?",
+        "answers": ["4", "22", "undefined", "NaN"],
+        "correctAnswer": "22"
+    },
+    {
+        "question": "¿Cuál es el método correcto para redondear el número 4.7 al entero más cercano en JavaScript?",
+        "answers": ["Math.round(4.7)", "Math.ceil(4.7)", "Math.floor(4.7)", "Math.rnd(4.7)"],
+        "correctAnswer": "Math.round(4.7)"
+    },
+    {
+        "question": "¿Qué evento se usa para ejecutar una función cuando el usuario hace clic en un elemento?",
+        "answers": ["onmouseclick", "onclick", "onmouseover", "onfocus"],
+        "correctAnswer": "onclick"
+    }
+]
